@@ -40,12 +40,11 @@ const Navbar = () => {
         </div>
         {!localStorage.getItem("token") ? (
             <div  >
-              <button className="btn">
-                <NavLink  className="link"  exact  to="/signup">Sign Up</NavLink>
-              </button>
-              <button className="btn">
+            <button className="btn">
+                <NavLink  className="link"  exact  to="/signup">Sign Up</NavLink> &nbsp;
                 <NavLink  className="link" exact  to="/login">Login </NavLink>
               </button>
+             
             </div>
           ) : (
             <button className="btn" onClick={handleLogout}>Log Out</button>
