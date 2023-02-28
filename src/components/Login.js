@@ -66,8 +66,8 @@ const Login = (props) => {
           </Grid>
           <TextField
             style={formStyle}
-            label="Username"
-            placeholder="Enter username"
+            label="Email"
+            placeholder="Enter Email"
             value={credentials.email}
             onChange={onChange}
             name="email"
