@@ -31,7 +31,7 @@ const Signup = (props) => {
 //On Submit send the new user credentials and redirect to home page
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch(`http://localhost:5000/api/auth/createuser`, {
+    const response = await fetch(`https://inotebook-backend-4ul1.onrender.com/api/auth/createuser`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
