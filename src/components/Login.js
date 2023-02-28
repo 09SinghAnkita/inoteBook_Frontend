@@ -32,7 +32,7 @@ const Login = (props) => {
   //On Submit send the existing user credentials and redirect to home page
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch(`http://localhost:5000/api/auth/login`, {
+    const response = await fetch(`https://inotebook-backend-4ul1.onrender.com/api/auth/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
