@@ -28,7 +28,7 @@ export default function BasicTextFields(props) {
     <>
     <Box style={{display: 'flex', flexDirection: 'column', alignItems :'center'}}
       component="form"
-      sx={{  '& > :not(style)': { m: 1, width: '100ch' },}}
+      sx={{  '& > :not(style)': { m: 1, width: '50vw' },}}
       noValidate
       autoComplete="off"
     > 
