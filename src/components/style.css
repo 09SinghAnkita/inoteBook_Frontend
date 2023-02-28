@@ -1,0 +1,25 @@
+a:-webkit-any-link{
+    text-decoration: none;
+    color:aliceblue
+}
+
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+    background-color: #1a1825 !important;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    color: #4e4d56;
+    text-shadow: 2px 2px #dcdae7;
+}
+
+.card {
+    margin: 1%;
+    padding: 1%;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px rgb(165, 176, 180);
+    border: none;
+}
