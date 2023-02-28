@@ -4,7 +4,7 @@ import React from "react";
 
 const NoteState = (props) => {
 
-  const host = "http://localhost:5000"
+  const host = "https://inotebook-backend-4ul1.onrender.com"
 
 
 
